@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int i,n,r=0,t,x;
+    int i,n,t,r=0;
     scanf("%d",&n);
     t=n;
     while(n!=0)
     {
-        x=n%10;
-        r=r*10+x;
+        i=n%10;
+        r=r*10+i;
         n=n/10;
     }
-    if(r==t)
+    if(t==r)
     {
         printf("Palindrome");
     }
