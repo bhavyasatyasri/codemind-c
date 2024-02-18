@@ -6,6 +6,7 @@ int main()
     scanf("%d%d",&x,&y);
     int res=add(x,y);
     printf("%d",res);
+    
 }
 int add(int x,int y)
 {
